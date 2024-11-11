@@ -1,0 +1,144 @@
+body {
+  background-color: #061A40;
+  font-family: "Funnel Sans", sans-serif;
+}
+
+
+.barra-superior{
+  color: #fff;
+  display: flex;
+  margin-top: 20px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.barra-superior h1{
+  font-weight: 600;
+}
+
+
+.score{
+  color: white;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin-top: 15px;
+  width: 48%;
+  text-transform: uppercase;
+  
+}
+
+.puntaje-mensaje h5{
+  font-weight: 600;
+}
+
+.mensaje{
+  color: white;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin-top: 15px;
+  width: 48%;
+  
+}
+
+
+.div-pregunta {
+  clear: both; /* Esto hace que este div se posicione debajo de los otros dos */
+  background-color: #B9D6F2;
+  padding: 20px;
+  margin-top:25px;
+  border-radius: 20px;
+  border: solid white 3px;
+}
+
+.div-pregunta h3{
+  text-align: center;
+  font-weight: 600;
+}
+
+.pregunta{
+  display: block;
+  text-align: center;
+  
+}
+
+.pregunta p{
+  margin-top: 40px;
+}
+
+.options button{
+  display: block;
+  width: 200px;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.options button:hover{
+  transform: scale(1.1);
+  background-color: #07915e;
+  font-weight: 600;
+}
+
+.boton-siguiente{
+  border-radius: 15px;
+  width: 200px;
+  margin-top: 25px;
+  transition: transform 0.3s ease;
+  display: none;
+  text-align: center;
+  background-color: #07915e;
+
+}
+
+.boton-siguiente:hover{
+  transform: scale(1.1);
+  background-color: #07915e;
+  font-weight: 600;
+  border: solid 3px black;
+}
+
+.creditos{
+  border: 2px solid white;
+  text-align: center;
+  margin-top: 25px;
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  background-color: #07915e;
+}
+
+.creditos a{
+  color: white;
+  text-decoration: none;
+}
+
+.creditos-texto{
+  font-weight: 600;
+  color: #fff;
+}
+
+.boton{
+  border: solid black 2px;
+  color: #fff;
+  border-radius: 5px;
+  width: 150px;
+  background-color: #061A40;
+  transition: transform 0.3s ease;
+  
+}
+
+.boton:hover{
+  transform: scale(1.05);
+}
